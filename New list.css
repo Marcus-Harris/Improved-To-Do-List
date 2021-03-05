@@ -1,0 +1,50 @@
+body {
+    margin:0%;
+}
+
+.header-container {
+    background-color: blue;
+    border: 5px solid black;
+    color: white;
+    text-align: center;
+}
+
+.main-container {
+    display: grid;
+    grid-template: 1fr / 1fr 2fr 5fr;
+}
+
+.list-container {
+    border: solid 2px black;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(228, 208, 183);
+}
+
+#list {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.list-item {
+    font-size: 20px;
+}
+
+#myInput, #add-button {
+    padding: 3%;
+    border: 1.5px solid black;
+    align-items: center;
+}
+
+#add-button {
+    background-color: black;
+    color: white;
+}
+
+#add-button:hover {
+    background-color: red;
+}
